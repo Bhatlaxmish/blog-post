@@ -1,0 +1,580 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Completed - Bloggewrite | Home</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
+    <!-- Remix icons -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"> -->
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+
+        <nav class="navbar container">
+            <a href="./index.html">
+                <h2 class="logo">Bloggewrite</h2>
+            </a>
+
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="#" class="list-link current">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Categories</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Reviews</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">News</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Membership</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Contact</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="./signin.html" class="list-link">Sign in</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="./signup.html" class="list-link">Sign up</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list list-right">
+                <button class="btn place-items-center" id="theme-toggle-btn">
+                    <i class="ri-sun-line sun-icon"></i>
+                    <i class="ri-moon-line moon-icon"></i>
+                </button>
+
+                <button class="btn place-items-center" id="search-icon">
+                    <i class="ri-search-line"></i>
+                </button>
+
+                <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+                    <i class="ri-menu-3-line open-menu-icon"></i>
+                    <i class="ri-close-line close-menu-icon"></i>
+                </button>
+
+                <a href="#" class="list-link screen-sm-hidden">Sign in</a>
+                <a href="#" class="btn sign-up-btn  screen-sm-hidden">
+                    <span>Sign up</span>
+                </a>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- Search -->
+    <div class="search-form-container container" id="search-form-container">
+
+        <div class="form-container-inner">
+
+            <form action="" class="form">
+                <input class="form-input" type="text" placeholder="What are you looking for?">
+                <button class="btn form-btn" type="submit">
+                    <i class="ri-search-line"></i>
+                </button>
+            </form>
+            <span class="form-note">Or press ESC to close.</span>
+
+        </div>
+
+        <button class="btn form-close-btn place-items-center" id="form-close-btn">
+            <i class="ri-close-line"></i>
+        </button>
+
+    </div>
+
+    <!-- Featured articles -->
+    <section class="featured-articles section section-header-offset">
+
+        <div class="featured-articles-container container d-grid">
+
+            <div class="featured-content d-grid">
+
+                <div class="headline-banner">
+                    <h3 class="headline ">
+                        <span class="place-items-center">Breaking news</span>
+                    </h3>
+                    <span class="headline-description">Google lounches new Phone..</span>
+                </div>
+
+                <a href="./" class="article featured-article featured-article-1">
+                    <img src="./assets/images/featured/featured.jpeg" alt="" class="article-image">
+                    <span class="article-category">Technology</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>oct 5th 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>8 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">AI is developing faster than ever</h3>
+
+                    </div>
+                </a>
+
+                <a href="./" class="article featured-article featured-article-2">
+                    <img src="./assets/images/featured/chinese.jpeg" alt="" class="article-image">
+                    <span class="article-category">Food</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>oct 5 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>4 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Delicious chinese food</h3>
+
+                    </div>
+                </a>
+
+                <a href="./" class="article featured-article featured-article-3">
+                    <img src="./assets/images/featured/immune.jpeg" alt="" class="article-image">
+                    <span class="article-category">Health</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>oct 6 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>5 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Immunity booster</h3>  
+
+                    </div>
+                </a>
+
+            </div>
+            
+            <div class="sidebar d-grid">
+
+                <h3 class="title featured-content-title">Trending news</h3>
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">01</span>
+                        <img src="./assets/images/trending/trending_1.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>20 oct 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>5 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Technology</h3>
+
+                    </div>
+                </a>
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">02</span>
+                        <img src="./assets/images/trending/trending_2.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>21 oct 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>6 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Nature</h3>
+
+                    </div>
+                </a>
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">03</span>
+                        <img src="./assets/images/trending/trending_3.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>23 oct 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>7 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Industry</h3>
+
+                    </div>
+                </a>
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">04</span>
+                        <img src="./assets/images/trending/trending_4.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>12 oct 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">forest</h3>
+
+                    </div>
+                </a>
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">05</span>
+                        <img src="./assets/images/trending/trending_5.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>23 oct 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>4 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Food</h3>
+
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Quick read -->
+    <section class="quick-read section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Quick read">Quick read</h2>
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/quick_read/quick read_1.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>20 sep 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>5 Min read</span>
+                            </div>
+                            <h3 class="title article-title">Beautiful mountains you must visit</h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/quick_read/quick_read_2.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>jan 2 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>1 Min read</span>
+                            </div>
+                            <h3 class="title article-title">India won a gold medal in weightlifting</h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/quick_read/quick_read_3.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>23 Dec 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>3 Min read</span>
+                            </div>
+                            <h3 class="title article-title">New look of Lamborgini</h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/quick_read/quick_read_4.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>22 Dec 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>4 Min read</span>
+                            </div>
+                            <h3 class="title article-title">Wonderla  </h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/quick_read/quick_read_5.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>3 Dec 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>7 Min read</span>
+                            </div>
+                            <h3 class="title article-title">Science new discovery</h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/quick_read/quick_read_6.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>2 Dec 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>2 Min read</span>
+                            </div>
+                            <h3 class="title article-title">Human behaviors</h3>
+                        </div>
+                    </a>
+                </div>
+                <!-- Navigation buttons -->
+                <div class="swiper-button-prev swiper-controls"></div>
+                <div class="swiper-button-next swiper-controls"></div>
+                <!-- Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Older posts -->
+    <section class="older-posts section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Older posts">Older posts</h2>
+
+            <div class="older-posts-grid-wrapper d-grid">
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older_posts/ronaldo.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>3 feb 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Ronaldo on field</h3>
+                        <p class="article-description">The 37-year-old Ronaldo was only on the field due to Anthony Martial’s inability to run off an injury sustained in the warmup, but it was no great surprise the substitute seized his opportunity.</p>
+
+                    </div>
+                </a>
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older_posts/pollution.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>2 oct 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>9 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Haryana cities breathe easy with ‘good’ AQI</h3>
+                        <p class="article-description">LWith different factors at play, including less incidents of stubble burning during the ongoing paddy harvesting season and scattered rains, the Air Quality Index (AQI) of most cities in Haryana on Sunday hovered between ‘good’ and ‘satisfactory’ as compared to the corresponding period last year.</p>
+
+                    </div>
+                </a>
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older_posts/taiwan.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>1 jan 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>5 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Taiwan pushes for free trade deal with India </h3>
+                        <p class="article-description">Taiwan has made a fresh pitch for a free trade agreement with India. Taiwan envoy Baushuan Ger expressed his country's willingness to share expertise in 5G, Info Tech, AI, and Semiconductors with India. The Taiwanese ambassador added that his country can be India’s “excellent partner”. Watch this video to know more.</p>
+
+                    </div>
+                </a>
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older_posts/donald.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>4 Aug 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>7 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">World war III is a possibility: Donald Trump on Russia-Ukraine crisis</h3>
+                        <p class="article-description">As the Pentagon seeks to confront spiraling suicide rates in the military ranks, Williamson’s experiences shine a light on the realities for service members seeking mental health help. For most, simply acknowledging their difficulties can be intimidating. And what comes next can be frustrating and dispiriting.</p>
+
+                    </div>
+                </a>
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older_posts/apple.jpeg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>26 Dec 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>10 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">These Apple devices will become 'obsolete' from next month</h3>
+                        <p class="article-description">Apple will place iPhone 5c in the obsolete product list next month, making the device ineligible for any repairs or services. A report from MacRumors stated, a memo directing the same has been sent out to authorized service providers on Saturday.</p>
+
+                    </div>
+                </a>
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older_posts/older_posts_6.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>16 june 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Healthy Hair Habits You Should Adopt</h3>
+                        <p class="article-description">Bad hair days are a bummer; that's a beauty truth. But they are no joke: According to a Redbook poll, 74% of women say a bad hair day makes them feel less confident. So, when your hair is in good shape, it undoubtedly looks better, and the chances of that happening are far less likely— or at least less frequent.</p>
+
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="see-more-container">
+                <a href="#" class="btn see-more-btn place-items-center">See more <i class="ri-arrow-right-s-line"></i></i></a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Popular tags -->
+    <section class="popular-tags section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Popular tags">Popular tags</h2>
+
+            <div class="popular-tags-container d-grid">
+
+                <a href="#" class="article">
+                    <span class="tag-name">#Travel</span>
+                    <img src="./assets/images/tags/travel-tag.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#Food</span>
+                    <img src="./assets/images/tags/food-tag.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#Technology</span>
+                    <img src="./assets/images/tags/technology-tag.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#Health</span>
+                    <img src="./assets/images/tags/health-tag.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#Nature</span>
+                    <img src="./assets/images/tags/nature-tag.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#Fitness</span>
+                    <img src="./assets/images/tags/fitness-tag.jpg" alt="" class="article-image">
+                </a>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="bloggewrite">Bloggewrite</h2>
+
+            <div class="form-container-inner">
+                <h6 class="title newsletter-title">Subscribe to Bloggewrite</h6>
+                <p class="newsletter-description">We give you the best blogs </p>
+
+                <form action="" class="form">
+                    <input class="form-input" type="text" placeholder="Enter your email address">
+                    <button class="btn form-btn" type="submit">
+                        <i class="ri-mail-send-line"></i>
+                    </button>
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+  
+
+    <!-- Swiper.js -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!-- Custom script -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
